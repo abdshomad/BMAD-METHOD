@@ -7,22 +7,26 @@ NEXT-METHOD has been successfully implemented as an intelligent wrapper around B
 ## 🚀 Core Features Implemented
 
 ### 1. **Iterative "Next" Command**
+
 - **Main Command**: `next` - Gets next suggested action and executes it
 - **Auto Mode**: `next --auto` - Automatically executes the most logical next step
 - **Suggest Mode**: `next --suggest` - Shows all available options without executing
 
 ### 2. **Context Management**
+
 - **Project Detection**: Automatically detects greenfield vs brownfield projects
 - **Phase Tracking**: Maintains context about current development phase
 - **History Logging**: Complete audit trail of all actions taken
 - **Persistent Storage**: Context saved in `.next-context.json` file
 
 ### 3. **Intelligent Workflow Orchestration**
+
 - **Phase-Based Suggestions**: Context-aware recommendations based on current phase
 - **Logical Progression**: Suggests next steps in logical development order
 - **Adaptive Workflow**: Adjusts suggestions based on project type and previous actions
 
 ### 4. **BMAD-METHOD Integration**
+
 - **Command Wrapping**: `next install` wraps `bmad install`
 - **Full Feature Access**: All existing BMAD features preserved and accessible
 - **Seamless Transition**: Users can still use all BMAD functionality
@@ -41,11 +45,13 @@ NEXT-METHOD has been successfully implemented as an intelligent wrapper around B
 ### Key Components
 
 #### NextMethodContext Class
+
 - Manages project context and state
 - Handles context persistence and loading
 - Provides intelligent suggestion logic
 
 #### Command Structure
+
 - `next` - Core iterative command
 - `next status` - Show project status
 - `next reset` - Reset context
@@ -53,6 +59,7 @@ NEXT-METHOD has been successfully implemented as an intelligent wrapper around B
 - `next update` - Update BMAD (wrapper)
 
 #### Workflow Phases
+
 1. **Project Detection** → Determine project type
 2. **Project Creation/Analysis** → Start new or analyze existing
 3. **Requirements Generation** → Create user stories
@@ -64,6 +71,7 @@ NEXT-METHOD has been successfully implemented as an intelligent wrapper around B
 ## 🔄 User Experience
 
 ### Before (BMAD-METHOD)
+
 ```
 User must know what to do next
 ↓
@@ -77,6 +85,7 @@ Repeat...
 ```
 
 ### After (NEXT-METHOD)
+
 ```
 User types: next
 ↓
@@ -105,6 +114,7 @@ Repeat...
 ## 🚀 Usage Examples
 
 ### Basic Iterative Workflow
+
 ```bash
 # Start the process
 next
@@ -123,6 +133,7 @@ next --auto
 ```
 
 ### NPM Scripts
+
 ```bash
 npm run next          # Run next command
 npm run next:auto     # Auto-execute next step
@@ -130,14 +141,16 @@ npm run next:suggest  # Show suggestions only
 ```
 
 ### Global Installation
+
 ```bash
-npm install -g next-method
+npm install -g next-please
 next
 ```
 
 ## 🔧 Configuration & Customization
 
 ### Context File (`.next-context.json`)
+
 ```json
 {
   "currentPhase": "start",
@@ -150,6 +163,7 @@ next
 ```
 
 ### Available Options
+
 - `--auto` - Automatically execute suggested step
 - `--suggest` - Show suggestions without executing
 - `--help` - Show command help
@@ -157,6 +171,7 @@ next
 ## 🌟 Future Enhancements
 
 ### Potential Improvements
+
 1. **AI-Powered Suggestions** - Use AI to generate more intelligent next steps
 2. **Custom Workflows** - Allow users to define custom development workflows
 3. **Integration Hooks** - Connect with external tools and services
@@ -164,6 +179,7 @@ next
 5. **Advanced Analytics** - Track development metrics and patterns
 
 ### Expansion Possibilities
+
 1. **Domain-Specific Workflows** - Specialized workflows for different project types
 2. **Plugin System** - Allow third-party extensions
 3. **Visual Interface** - Web-based dashboard for workflow management
@@ -196,8 +212,8 @@ next
 
 NEXT-METHOD is now fully functional and ready for users to:
 
-1. **Install globally**: `npm install -g next-method`
-2. **Use npx**: `npx next-method next`
+1. **Install globally**: `npm install -g next-please`
+2. **Use npx**: `npx next-please next`
 3. **Run locally**: `npm run next`
 4. **Start iterating**: `next` → `next` → `next`...
 

@@ -5,10 +5,12 @@ Welcome to the NEXT-METHOD documentation folder! This directory contains all the
 ## 📚 Documentation Files
 
 ### Core Documentation
+
 - **[next-method-documentation.md](./next-method-documentation.md)** - Complete user guide and reference
 - **[next-method-implementation.md](./next-method-implementation.md)** - Technical implementation summary
 
 ### Tools and Examples
+
 - **[demo-next-workflow.sh](./demo-next-workflow.sh)** - Demonstration script showing the iterative workflow
 
 ## 🚀 Quick Start
@@ -22,6 +24,7 @@ Welcome to the NEXT-METHOD documentation folder! This directory contains all the
 NEXT-METHOD transforms BMAD-METHOD from a manual command-selection tool into an intelligent, guided development assistant. Instead of manually choosing which tasks or commands to run, you simply type `next` repeatedly, and the system intelligently suggests and executes the next appropriate step.
 
 ### Key Benefits
+
 - **Reduced Cognitive Load** - No need to remember what to do next
 - **Guided Development** - System suggests logical next steps
 - **Context Awareness** - Remembers progress and adapts suggestions
@@ -50,7 +53,9 @@ next --auto
 ## 📖 Documentation Structure
 
 ### User Guide
+
 The [next-method-documentation.md](./next-method-documentation.md) file contains:
+
 - Complete command reference
 - Workflow phase explanations
 - Usage examples and best practices
@@ -59,7 +64,9 @@ The [next-method-documentation.md](./next-method-documentation.md) file contains
 - API reference for developers
 
 ### Implementation Details
+
 The [next-method-implementation.md](./next-method-implementation.md) file covers:
+
 - What was implemented
 - Technical architecture
 - File structure changes
@@ -67,7 +74,9 @@ The [next-method-implementation.md](./next-method-implementation.md) file covers
 - Future enhancement possibilities
 
 ### Demo and Examples
+
 The [demo-next-workflow.sh](./demo-next-workflow.sh) script demonstrates:
+
 - How the iterative workflow works
 - Expected outputs for each step
 - Key benefits and features
@@ -83,16 +92,19 @@ The [demo-next-workflow.sh](./demo-next-workflow.sh) script demonstrates:
 ## 🚀 Getting Started
 
 1. **Install NEXT-METHOD**:
+
    ```bash
-   npm install -g next-method
+   npm install -g next-please
    ```
 
 2. **Navigate to your project**:
+
    ```bash
    cd your-project
    ```
 
 3. **Start the iterative process**:
+
    ```bash
    next
    ```
@@ -116,4 +128,4 @@ This project is licensed under the MIT License - see the [LICENSE](../LICENSE) f
 
 **NEXT-METHOD™** - Making AI-driven development as simple as typing "next" repeatedly! 🚀
 
-*Built with ❤️ for the AI-assisted development community*
+_Built with ❤️ for the AI-assisted development community_

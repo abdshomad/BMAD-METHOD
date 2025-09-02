@@ -56,10 +56,10 @@ The difference is not in capability but in philosophy: vanilla BMAD gives you al
 
 ```bash
 # Install NEXT-METHOD
-npm install -g next-method
+npm install -g next-please
 
 # Or use npx
-npx next-method install
+npx next-please install
 
 # Initialize a new project
 start
@@ -101,6 +101,7 @@ next --auto
 ## 📋 Available Commands
 
 ### Core Commands
+
 - `start` or `init` - Initialize a new Next Method project or reset existing project
 - `next` - Get next suggested action and execute it
 - `next --auto` - Automatically execute the most logical next step
@@ -109,10 +110,12 @@ next --auto
 - `next reset` - Reset the Next Method context
 
 ### BMAD-METHOD Wrappers
+
 - `next install` - Install BMAD Method (wraps bmad install)
 - `next update` - Update existing BMAD installation (wraps bmad update)
 
 ### NPM Scripts
+
 - `npm run start` or `npm run init` - Initialize a new Next Method project
 - `npm run next` - Run the next command locally
 - `npm run next:auto` - Auto-execute next step
@@ -133,16 +136,19 @@ NEXT-METHOD guides you through these development phases:
 ## 🎯 Use Cases
 
 ### Greenfield Development
+
 - Start with `next` to detect empty directory
 - Follow suggestions to create new project structure
 - Progress through requirements, architecture, and implementation
 
 ### Brownfield Development
+
 - Start with `next` to analyze existing codebase
 - Get suggestions for improving or extending current project
 - Follow iterative improvement workflow
 
 ### Learning & Exploration
+
 - Use `next --suggest` to see all available options
 - Understand the development workflow step by step
 - Learn BMAD-METHOD concepts through guided execution
@@ -174,16 +180,19 @@ NEXT-METHOD creates a `.next-context.json` file in your project directory to mai
 ## 🚀 Getting Started
 
 1. **Install NEXT-METHOD:**
+
    ```bash
-   npm install -g next-method
+   npm install -g next-please
    ```
 
 2. **Navigate to your project directory:**
+
    ```bash
    cd your-project
    ```
 
 3. **Initialize the project:**
+
    ```bash
    start
    # or
@@ -191,6 +200,7 @@ NEXT-METHOD creates a `.next-context.json` file in your project directory to mai
    ```
 
 4. **Start the iterative process:**
+
    ```bash
    next
    ```
@@ -205,6 +215,7 @@ NEXT-METHOD creates a `.next-context.json` file in your project directory to mai
 ## 🔗 Integration with BMAD-METHOD
 
 NEXT-METHOD is built on top of BMAD-METHOD and provides:
+
 - All BMAD-METHOD features and capabilities
 - Intelligent workflow orchestration
 - Context-aware development guidance

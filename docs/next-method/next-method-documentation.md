@@ -35,10 +35,10 @@ NEXT-METHOD is an intelligent wrapper around BMAD-METHOD that provides an iterat
 
 ```bash
 # Global installation
-npm install -g next-method
+npm install -g next-please
 
 # Or use npx
-npx next-method install
+npx next-please install
 ```
 
 ### First Steps
@@ -64,11 +64,13 @@ next
 NEXT-METHOD transforms development from a manual decision-making process into an intelligent, guided workflow:
 
 **Before (BMAD-METHOD):**
+
 ```
 User must know what to do next → Manually choose command → Execute → Decide next step → Repeat...
 ```
 
 **After (NEXT-METHOD):**
+
 ```
 User types: next → System suggests next step → User confirms → System tracks progress → User types: next → System suggests next logical step → Repeat...
 ```
@@ -96,13 +98,16 @@ The system provides context-aware recommendations based on:
 ### Core Commands
 
 #### `next`
+
 Get next suggested action and execute it interactively.
 
 **Options:**
+
 - `--auto, -a`: Automatically execute the most logical next step
 - `--suggest, -s`: Show all available options without executing
 
 **Examples:**
+
 ```bash
 next                        # Interactive mode
 next --auto                 # Auto-execute next step
@@ -110,18 +115,22 @@ next --suggest              # Show suggestions only
 ```
 
 #### `next status`
+
 Display current project status and context.
 
 **Output includes:**
+
 - Current development phase
 - Project type
 - Last action performed
 - Recent action history
 
 #### `next reset`
+
 Reset the Next Method context (requires confirmation).
 
 **Use when:**
+
 - Starting a new project
 - Clearing development history
 - Troubleshooting context issues
@@ -129,9 +138,11 @@ Reset the Next Method context (requires confirmation).
 ### BMAD-METHOD Wrappers
 
 #### `next install`
+
 Install BMAD Method (wraps `bmad install`).
 
 **Options:** All standard BMAD install options supported
+
 ```bash
 next install --full
 next install --expansion-only
@@ -139,9 +150,11 @@ next install --ide cursor
 ```
 
 #### `next update`
+
 Update existing BMAD installation (wraps `bmad update`).
 
 **Options:** All standard BMAD update options supported
+
 ```bash
 next update --force
 next update --dry-run
@@ -160,36 +173,43 @@ npm run next:suggest  # Show suggestions only
 NEXT-METHOD guides you through these development phases:
 
 ### 1. Project Detection
+
 - **Purpose**: Determine if working on greenfield or brownfield project
 - **Trigger**: First `next` command
 - **Actions**: Analyze directory structure, detect project markers
 
 ### 2. Project Creation/Analysis
+
 - **Greenfield**: Start new project structure
 - **Brownfield**: Analyze existing codebase and requirements
 - **Output**: Project context and initial assessment
 
 ### 3. Requirements Generation
+
 - **Purpose**: Create user stories and requirements
 - **Prerequisites**: Project analysis complete
 - **Tools**: BMAD-METHOD requirements generation
 
 ### 4. Architecture Design
+
 - **Purpose**: Design technical architecture
 - **Prerequisites**: Requirements defined
 - **Output**: Technical specifications and design documents
 
 ### 5. Implementation
+
 - **Purpose**: Code and develop features
 - **Prerequisites**: Architecture designed
 - **Focus**: Feature development and coding
 
 ### 6. Testing & Validation
+
 - **Purpose**: Test and validate implementation
 - **Prerequisites**: Features implemented
 - **Activities**: Unit testing, integration testing, QA
 
 ### 7. Deployment
+
 - **Purpose**: Deploy the application
 - **Prerequisites**: Testing completed
 - **Activities**: Production deployment, monitoring setup
@@ -298,11 +318,11 @@ NEXT-METHOD maintains 100% compatibility with BMAD-METHOD:
 
 ### Command Mapping
 
-| NEXT-METHOD | BMAD-METHOD | Purpose |
-|-------------|-------------|---------|
+| NEXT-METHOD    | BMAD-METHOD    | Purpose                |
+| -------------- | -------------- | ---------------------- |
 | `next install` | `bmad install` | Install BMAD framework |
-| `next update` | `bmad update` | Update installation |
-| `next` | N/A | Iterative workflow |
+| `next update`  | `bmad update`  | Update installation    |
+| `next`         | N/A            | Iterative workflow     |
 
 ### Expansion Packs
 
@@ -318,6 +338,7 @@ All BMAD-METHOD expansion packs work seamlessly:
 ### Common Issues
 
 #### Context File Errors
+
 ```bash
 # Reset context if corrupted
 next reset
@@ -327,15 +348,17 @@ ls -la .next-context.json
 ```
 
 #### Command Not Found
+
 ```bash
 # Ensure global installation
-npm install -g next-method
+npm install -g next-please
 
 # Check PATH
 which next
 ```
 
 #### BMAD Integration Issues
+
 ```bash
 # Verify BMAD installation
 next install --dry-run
@@ -347,6 +370,7 @@ bmad --version
 ### Debug Mode
 
 Enable debug logging:
+
 ```bash
 export NEXT_DEBUG=true
 next
@@ -412,7 +436,7 @@ interface Suggestion {
 
 ```bash
 # Clone repository
-git clone https://github.com/your-org/next-method.git
+git clone https://github.com/your-org/next-please.git
 
 # Install dependencies
 npm install
@@ -441,16 +465,19 @@ npm run build
 ## 📚 Additional Resources
 
 ### Documentation
+
 - [BMAD-METHOD Core Documentation](docs/)
 - [Expansion Packs Guide](expansion-packs/)
 - [API Reference](docs/api.md)
 
 ### Community
+
 - [Discord Community](https://discord.gg/your-community)
-- [GitHub Issues](https://github.com/your-org/next-method/issues)
-- [Discussions](https://github.com/your-org/next-method/discussions)
+- [GitHub Issues](https://github.com/your-org/next-please/issues)
+- [Discussions](https://github.com/your-org/next-please/discussions)
 
 ### Examples
+
 - [Sample Projects](examples/)
 - [Workflow Templates](templates/)
 - [Video Tutorials](https://youtube.com/your-channel)
@@ -459,4 +486,4 @@ npm run build
 
 **NEXT-METHOD™** - Making AI-driven development as simple as typing "next" repeatedly! 🚀
 
-*Built with ❤️ for the AI-assisted development community*
+_Built with ❤️ for the AI-assisted development community_
