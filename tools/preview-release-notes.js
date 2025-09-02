@@ -58,7 +58,7 @@ console.log('npx bmad-method install');
 console.log('```');
 
 console.log(
-  `\n**Full Changelog**: https://github.com/bmadcode/BMAD-METHOD/compare/${latestTag}...v${nextVersion}`,
+  `\n**Full Changelog**: https://github.com/abdshomad/NEXT-METHOD/compare/${latestTag}...v${nextVersion}`,
 );
 
 console.log(`\n---\n📊 **Summary**: ${commits.length} commits since ${latestTag}`);
